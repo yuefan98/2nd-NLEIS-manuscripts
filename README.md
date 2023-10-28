@@ -1,9 +1,11 @@
 # Second-Harmonic Nonlinear Electrochemical Impedance Spectroscopy (2nd-NLEIS)
 ----------------------------------------------------------------
 
-This repository can be cited with: 
+This repository can be cited with: [![DOI](https://zenodo.org/badge/709980608.svg)](https://zenodo.org/doi/10.5281/zenodo.10050482)
+
 
 For further information or if this code is used, please go to or cite the following paper:
+* Paper citation will be available upon acceptance
 
 ----------------------------------------------------------------
 
