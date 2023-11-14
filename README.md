@@ -14,12 +14,14 @@ For further information or if this code is used, please go to or cite the follow
 ### Abstract
 -------------
 
+Analytical theory for second harmonic nonlinear electrochemical impedance spectroscopy (2nd- NLEIS) of planar and porous electrodes is developed for interfaces governed by Butler-Volmer kinetics, a Helmholtz (mainly) or Gouy-Chapman (introduced) double layer, and transport by ion migration and diffusion. A continuum of analytical EIS and 2nd-NLEIS models is presented, from nonlinear Randles circuits with or without diffusion impedances to nonlinear macrohomogeneous porous electrode theory that is shown to be analogous to a nonlinear transmission-line model. EIS and 2nd-NLEIS for planar electrodes share classic charge transfer RC and diffusion time-scales, whereas porous electrode EIS and 2nd-NLEIS share three characteristic time constants. In both cases, the magnitude of 2nd-NLEIS is proportional to nonlinear charge transfer asymmetry and thermodynamic curvature parameters. The phase behavior of 2nd-NLEIS is more complex and model-sensitive than in EIS, with half-cell NLEIS spectra potentially traversing all four quadrants of a Nyquist plot. We explore the power of simultaneously analyzing the linear EIS and 2nd-NLEIS spectra for two-electrode configurations, where the full-cell linear EIS signal arises from the sum of the half-cell spectra, while the 2nd-NLEIS signal arises from their difference.
+
 ----------------------------------------------------------------
-### Part II: Experimental Approach and Analysis of lithium-ion battery Experiments
+### Part II: Model-based Analysis of Lithium-Ion Battery Experiments
 -------------
 ### Abstract
 -------------
-
+Quantitative analysis of electrochemical impedance spectroscopy (EIS) and 2nd-harmonic nonlinear EIS (2nd-NLEIS) data from commercial Li-ion batteries is performed using the porous electrode half-cell models developed in Part I. Because EIS and 2nd-NLEIS signals have opposite parity, the full-cell EIS model relies on the sum of cathode and anode half-cells whereas the full- cell 2nd-NLEIS model requires subtraction of the anode half-cell from the cathode. The full-cell EIS model produces a low error fit to EIS measurements, but importing EIS best-fit parameters into the 2nd-NLEIS model fails to ensure robust model-data convergence. In contrast, simultaneously fitting opposite parity EIS and 2nd-NLEIS models to the corresponding magnitude- normalized experimental data provides a lower total error fit, more internally-self-consistent parameters, and better assignment of parameters to individual electrodes than EIS analysis alone. Our results quantify the extent that mildly aging of cells (<1% capacity loss) results in substantial increases in cathode charge transfer resistance, and for the first time, a breakdown in cathode charge transfer symmetry at 30% and lower state-of-charge (SoC). New avenues for model-based analysis are discussed for full-cell diagnostic and we identify several open questions.
 
 ### Software Dependencies
 ----------------------------------------------------------------
@@ -38,13 +40,13 @@ The conda environment used for this work can be recreated with the following com
 ----------------------------------------------------------------
 ### Folders
 ----------------------------------------------------------------
-NLEIS_toolbox: This folder contains essential data and an illustrative Jupyter notebook, serving as a user guide for utilizing the NLEIS toolbox. Users familiar with impedance.py will find the material readily adaptable, ensuring a user-friendly experience.
+**NLEIS_toolbox**: This folder contains essential data and an illustrative Jupyter notebook, serving as a user guide for utilizing the NLEIS toolbox. Users familiar with impedance.py will find the material readily adaptable, ensuring a user-friendly experience.
 
-Part I: This folder contains one Supplementary Jupyter Notebook for recreating figures in Part I of the manuscript. 
+**Part I**: This folder contains one Supplementary Jupyter Notebook for recreating figures in Part I of the manuscript. 
 
-Part II: This folder contains two Supplementary Jupyter Notebooks for part II of the manuscript. The main Supplementary Notebook provide the necessary code to generate all the figures in Part II. The Sobol Notebook provides code to reproduce the sobol sampling method disscussed in the manuscript
+**Part II**: This folder contains two Supplementary Jupyter Notebooks for part II of the manuscript. The main Supplementary Notebook provide the necessary code to generate all the figures in Part II. The Sobol Notebook provides code to reproduce the sobol sampling method disscussed in the manuscript
 
-impedance: This code represents the adapted version of impedance.py, now integrated with the NLEIS toolbox.
+**impedance**: This code represents the adapted version of impedance.py, now integrated with the NLEIS toolbox.
 
 
 ----------------------------------------------------------------
